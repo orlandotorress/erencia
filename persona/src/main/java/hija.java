@@ -4,7 +4,7 @@ public class hija extends Padre {
     private String jefeInmediato;
     private int añosExperiencia;
 
-    // Constructor
+    
     public hija(String nombre, String apellido, String direccion, String telefono, int edad, String email, double salario, String jefeInmediato, int añosExperiencia) {
         super(nombre, apellido, direccion, telefono, edad, email);
         this.salario = salario;
@@ -13,7 +13,7 @@ public class hija extends Padre {
         this.nombreCargo = calcularCargo(); 
     }
 
-    // Getters
+    
     public String getNombreCargo() {
         return nombreCargo;
     }
@@ -30,7 +30,7 @@ public class hija extends Padre {
         return añosExperiencia;
     }
 
-    // Setters
+    
     public void setSalario(double salario) {
         this.salario = salario;
         this.nombreCargo = calcularCargo(); 
