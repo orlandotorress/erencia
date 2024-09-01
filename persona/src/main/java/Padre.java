@@ -16,7 +16,7 @@ public class Padre {
         this.email = email;
     }
 
-    // Getters
+    
     public String getNombre() {
         return nombre;
     }
@@ -41,7 +41,7 @@ public class Padre {
         return email;
     }
 
-    // Setters
+    
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
