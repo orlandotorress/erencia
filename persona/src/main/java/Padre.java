@@ -6,7 +6,7 @@ public class Padre {
     private int edad;
     private String email;
 
-    // Constructor
+    
     public Padre(String nombre, String apellido, String direccion, String telefono, int edad, String email) {
         this.nombre = nombre;
         this.apellido = apellido;
